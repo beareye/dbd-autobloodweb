@@ -1,0 +1,32 @@
+Finding HSV boundaries; User Analysis: ./images/bloodweb_3_cropped.jpg at 2021-06-21 01:08:22.500586
+Range of Hue: (0, 255)
+Range of Sat: (0, 255)
+Range of Val: (0, 255)
+Finding HSV boundaries; User Analysis: ./images/bloodweb_3_cropped.jpg at 2021-06-21 01:12:38.449907
+Range of Hue: (-1, -1)
+Range of Sat: (-1, -1)
+Range of Val: (-1, -1)
+Finding Canny Edge values; User Analysis: ./images/bloodweb_2.jpg at 2021-06-20 19:08:00.086355
+Range of Threshold: (585, 122)
+Aperature/Sobel Size: -1
+l2grad?: False
+Finding Canny Edge values; User Analysis: ./images/bloodweb_2.jpg at 2021-06-20 19:13:08.485353
+Range of Threshold: (298, 2077)
+Aperature/Sobel Size: 5
+l2grad?: False
+Finding position boundaries; User Analysis: ('./images/bloodweb_2.jpg',) at 2021-06-23 23:49:58.776511
+Range of X: [992, 1096]
+Range of Y: [625, 626]
+
+Finding position boundaries; User Analysis: ('./images/bloodweb_2.jpg',) at 2021-06-23 23:51:42.018864
+Range of X: [852, 958]
+Range of Y: [871, 873]
+
+Finding position boundaries; User Analysis: ('images/bloodweb_3_cropped.jpg',) at 2021-06-24 00:00:32.870747
+Range of X: [687, 792]
+Range of Y: [462, 465]
+
+Finding HSV boundaries; User Analysis: images/bloodweb_3_cropped.jpg at 2021-06-24 00:18:29.607480
+Range of Hue: (0, 88)
+Range of Sat: (0, 90)
+Range of Val: (0, 255)
