@@ -30,3 +30,7 @@ Finding HSV boundaries; User Analysis: images/bloodweb_3_cropped.jpg at 2021-06-
 Range of Hue: (0, 88)
 Range of Sat: (0, 90)
 Range of Val: (0, 255)
+Finding position boundaries; User Analysis: ('images/flashlights.jpg',) at 2021-07-05 00:22:56.848327
+Range of X: [907, 1078]
+Range of Y: [288, 688]
+

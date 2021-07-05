@@ -166,4 +166,4 @@ def useHSVMask(img, lower, upper):
     return result
 
 if __name__ == "__main__":
-    discoverMask("images/bloodweb_3_cropped.jpg")
+    openCoordinateFindWindow("images/flashlights.jpg")
