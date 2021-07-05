@@ -73,7 +73,7 @@ def getBestCircle(circles, items):
 
 
 def findItemCoordinates(img, display=False):
-    itemsList = ["purple", "streamers", "green", "event", "yellowbattery", "yellow", "filament", "brownbattery"]
+    itemsList = ["purple", "streamers", "greenbattery", "green", "event", "yellowbattery", "yellow", "filament", "brownbattery"]
     threshold = .8
     coordinates = []
     for item in itemsList:
