@@ -21,9 +21,9 @@ def spendPoints():
     screenshot = pag.screenshot()
     screenshot = cv.cvtColor(np.array(screenshot), cv.COLOR_RGB2GRAY)
     screenshot = utils.cropImage(screenshot, (0, len(screenshot[0])//3*2), (0, len(screenshot))) # get left side of screen
-    items = findItemCoordinates(screenshot, display=True)
+    items = findItemCoordinates(screenshot, display=False)
     while True:
-        pag.moveTo(0,0)
+        pag.moveTo(10,10)
         screenshot = pag.screenshot()
         screenshot = cv.cvtColor(np.array(screenshot), cv.COLOR_RGB2BGR)
         screenshot = utils.cropImage(screenshot, (0, len(screenshot[0])//3*2), (0, len(screenshot))) # get left side of screen
@@ -34,10 +34,11 @@ def spendPoints():
         try:
             circles = np.around(circles[0,:])
         except:
-            time.sleep(2)
             print("no circles")
             pag.click()
-            continue
+            time.sleep(2)
+            return
+        
         circles = np.uint16(circles)
         nextCircle = getBestCircle(circles, items)
         if nextCircle == []:
@@ -73,7 +74,7 @@ def getBestCircle(circles, items):
 
 def findItemCoordinates(img, display=False):
     itemsList = ["purple", "streamers", "green", "event", "yellowbattery", "yellow", "filament", "brownbattery"]
-    threshold = .9
+    threshold = .8
     coordinates = []
     for item in itemsList:
         itemImage = cv.imread("./images/{}.jpg".format(item), cv.IMREAD_GRAYSCALE)
