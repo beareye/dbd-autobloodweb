@@ -1,4 +1,5 @@
-numpy==1.14.3
-opencv_python==4.5.2.52
-matplotlib==3.0.2
-PyAutoGUI==0.9.52
+numpy
+opencv_python
+matplotlib
+PyAutoGUI
+keyboard
