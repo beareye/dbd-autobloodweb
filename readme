@@ -1,14 +1,14 @@
-Basiclly: this helps you click the DBD bloodweb so you dont have to
+Basiclly: this helps you click through the DBD bloodweb so you dont have to
 
-NEW FEATURE:: GETS ALL THE FLASHLIGHTS AND RELATED THINGS (THIS ONLY WORKS ON 2K monitors FOR NOW)
+NEW FEATURE:: GETS ALL THE FLASHLIGHTS AND addons THINGS (THIS ONLY WORKS ON 2K monitors FOR NOW)
 
 u will need python 3 with pip enabled
 
 steps:
 
-1: clone this repo and go into the directory (on a terminal). Alternatavely, you can just download executeLazyClick.py and requirements.txt and utils.py and put them in one folder. U can then use command prompt or the one for mac.
+1: clone this repo and go into the directory (on a terminal).
 2: run "pip3 install -r requirements.txt" or "pip install -r requirements.txt" to install required packages (np, opencv, matplotlib, pyautogui)
-3: OPen dead by daylight and have the bloodweb open (also make sure your screen resolution is 1080p or 2k cuz im not making changes for other resolutions)
+3: OPen dead by daylight and have the bloodweb open (also make sure your screen resolution is 2k cuz im not making changes for other resolutions)
 
 IMPORTANT: make sure your most recent window is DBD or else the program may do unexpected things
 EVEN MORE IMPORTANT: The program must be manually stopped (use control C on the terminal) OR ELSE YOUR MOUSE WILL KEEP CLICKING
@@ -17,15 +17,9 @@ EVEN MORE IMPORTANT: The program must be manually stopped (use control C on the 
 5: USE CONTROL C on the TERMINAL whenever u want to stop. remember, alt tab to swtich windows.
 The script will begin running
 
-How it works:
-    first it takes a screenshot
-    then it crops out the right side of the screen
-    it uses an hsv mask to reveal circles better
-    then it uses hough circles alrightom to find the current avalible items to buy
-    Randomly selects an item and moves mouse to center coordinate and perfiorm a long click
-    repeat
 
-.dev:
+
+
     update selection algothim
     terminate script properly
     error handling
@@ -34,6 +28,5 @@ How it works:
     predict entity spawn
     cheapest algothem (prestege alogithem)
     perks alogithem
-    flashligh/bat prio
     edit shitty readme
     
